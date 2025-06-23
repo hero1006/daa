@@ -13,7 +13,6 @@ def Kruskal(graph):
             parent[find(parent, u)] = find(parent, v)
             mst.append((u, v, w))
 
-    print(mst)
 
     return mst
 
